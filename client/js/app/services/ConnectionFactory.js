@@ -55,3 +55,5 @@ var ConnectionFactory = (function () {
 	}	
 })();
 
+//DAO = Data Access Object
+
