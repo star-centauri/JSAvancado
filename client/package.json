@@ -1,0 +1,13 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	 "build": "babel --presets es2015 js/app-es6 -d js/app --source-maps",
+	 "watch": "babel --presets es2015 js/app-es6 -d js/app --source-maps --watch"
+  },
+  "author": "Bruna de Lima",
+  "license": "ISC"
+}
